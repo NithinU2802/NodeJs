@@ -1,0 +1,61 @@
+html 
+    head 
+        title Create Employee Managment System 
+    body 
+        h1 Welcome TO Employee Managment System 
+
+        h2(style="background:red;color:white") Create new Employee 
+        form(action="/create", method="post") 
+            label(for="emp_id") Enter Employee ID : 
+                input(type="text", name="id") 
+            br 
+            br 
+            label(for="name") Enter Employee Name : 
+                input(type="text", name="name") 
+            br 
+            br 
+            label(for="address") Enter Employee Address : 
+                input(type="text", name="address") 
+            br 
+            br 
+            label(for="salary") Enter Employee Salary : 
+                input(type="text", name="salary") 
+            br 
+            br 
+            input(type="submit", value="Submit") 
+
+        h2(style="background:red;color:white") Search Employee Data 
+        form(action="/search", method="post") 
+            label(for="emp_id") Enter Employee ID : 
+               input(type="text", name="id") 
+            br 
+            br 
+            input(type="submit", value="Submit") 
+
+        h2(style="background:red;color:white") Update Employee Data 
+        form(action="/update", method="post") 
+            label(for="emp_id") Enter Employee ID : 
+                input(type="text", name="id") 
+            br 
+            br 
+            label(for="name") Enter Employee Name : 
+                input(type="text", name="name") 
+            br 
+            br 
+            label(for="address") Enter Employee Address : 
+                input(type="text", name="address") 
+            br 
+            br 
+            label(for="salary") Enter Employee Salary : 
+                input(type="text", name="salary") 
+            br 
+            br 
+            input(type="submit", value="Submit") 
+            
+        h2(style="baackground:red;color:white") Delete Employee Data
+        form(action="/delete", method="post") 
+            label(for="emp_id") Enter Employee ID : 
+                input(type="text", name="id") 
+            br 
+            br 
+            input(type="submit", value="Submit") 
