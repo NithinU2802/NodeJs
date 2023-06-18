@@ -39,3 +39,23 @@
 
 4. SimpleStaticSite.js - To Implement a simple webserver that will deliver the static 
    website and the given port.
+        - Need to create a server object that can be implemented using createServer 
+    method available in http package.
+        - Futher that can be accessed by listen(port) method available in server object.
+
+5. SendJsonRes.js - To Implement a JavaScript file that will deliver Json format text 
+   toward the webpage.
+        - create a server object that holds Json message to be deliver to the html page
+    that are used for further processes.
+        - Again that can be accessed by listen(port) method available in server object.
+
+6. ApiConnection.js - Create a API Connection application to usage of  an web page 
+   https://jsonplaceholder.typicode.com/posts that provide post.
+        - It is an API provides various endpoints to interact with a collection of
+    dummy posts.
+
+7. ChildProcess.js - Using this file to access gcc an c/c++ compiler to execute the 
+   exec command to print the version that represent the childprocess that will 
+   deliver the version of the gcc with requred details...
+
+   By these My first level of Node js training has been completed successfully...!
